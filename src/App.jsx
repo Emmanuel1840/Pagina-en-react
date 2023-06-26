@@ -12,23 +12,23 @@ function App() {
   return (
     <div className='bg-black'>
       <div className='col-4'>
-      <Cabecera/>
+      <Cabecera proyecto="Trabajo" juego="Juego-web"/>
       </div>
       <div className=''>
       <Carrucel/>
       </div>
       <div>
-        <Informacion/>
+        <Informacion general="Objetivo principal" específico="Objetivo secundario"/>
       </div>
-      <Nosotros/>
+      <Nosotros imagen="../public/Mateo 1.jpg"/>
       <div>
-        <Imagen/>
-      </div>
-      <div>
-        <Formulario/>
+        <Imagen imgs="../public/logogravitar.png"/>
       </div>
       <div>
-        <PieDePagina/>
+        <Formulario name='Apellido'/>
+      </div>
+      <div>
+        <PieDePagina fon="rgba(192, 192, 192, 0.481)"/>
       </div>
     </div>
     

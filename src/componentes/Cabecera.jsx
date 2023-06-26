@@ -17,10 +17,10 @@ function Cabecera(props) {
                             <a className="nav-link active text-light " href="#Contexto">Contexto</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" href="#proyecto">Proyecto</a>
+                            <a className="nav-link text-light" href="#proyecto">{props.proyecto}</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" href="#imagenjuego">Juego</a>
+                            <a className="nav-link text-light" href="#imagenjuego">{props.juego}</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-light" href="#Nosotros">Nosotros</a>

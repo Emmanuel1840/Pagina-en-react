@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Formulario() {
+function Formulario(props) {
   return (
-    <div>
+    <div className='container'>
       <div className="mb-3">
-      <label htmlFor="exampleFormControlInput1" className="form-label text-light">Nombre</label>
+      <label htmlFor="exampleFormControlInput1" className="form-label text-light">{props.name}</label>
       <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Nombre" />
       <label htmlFor="exampleFormControlInput2" className="form-label text-light">Apellido</label>
       <input type="email" className="form-control" id="exampleFormControlInput2" placeholder="Apellido" />

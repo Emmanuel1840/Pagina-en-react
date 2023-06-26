@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PieDePagina() {
+function PieDePagina(props) {
   return (
     <footer className="text-center text-white" style={{ backgroundColor: '#605f5f' }}>
     <div className="container pt-4">
@@ -19,7 +19,7 @@ function PieDePagina() {
         </a>
       </section>
     </div>
-    <div className="text-center text-dark p-3" style={{ backgroundColor: 'rgba(192, 192, 192, 0.481)' }}>
+    <div className="text-center text-dark p-3" style={{ backgroundColor: `${props.fon}` }}>
       <a className="text-light" href="/">
         <img src="logogravitar.png" height="67" width="70" alt="" />
       </a>
